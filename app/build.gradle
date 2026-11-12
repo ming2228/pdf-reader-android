@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.jy.pdf.read.io'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.jy.pdf.read.io'
+        minSdk 26
+        targetSdk 35
+        versionCode 3
+        versionName '1.0.2'
+        testInstrumentationRunner providers.gradleProperty('readerTestRunner').getOrElse('com.jy.pdf.read.io.ReaderInstrumentation')
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { release { minifyEnabled false } }
+}
+dependencies { testImplementation 'junit:junit:4.13.2' }
