@@ -1,6 +1,6 @@
 # PDF 阅读器
 
-项目 `pdf-reader`，包名 `com.jy.pdf.read.io`，当前版 1.0.2。面向 Android 10 掌阅 Ocean 4 Turbo 2025，支持 Android 8.0+。
+项目 `pdf-reader-android`，包名 `com.jy.pdf.read.io`，当前版 1.0.2。面向 Android 10 掌阅 Ocean 4 Turbo 2025，支持 Android 8.0+。
 
 - 只支持 PDF。应用内选择文件，或在文件管理器长按 PDF → 其他应用打开 → PDF 阅读器。
 - Android10 另提供设备文件浏览入口，按需请求读取存储权限；系统选择器和外部临时授权无需广泛存储权限。

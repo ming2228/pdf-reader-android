@@ -1,5 +1,5 @@
 PDF 阅读器 1.0.2
-项目：pdf-reader
+项目：pdf-reader-android
 包名：com.jy.pdf.read.io
 
 安装 pdf-reader-1.0.2-universal.apk。可直接覆盖1.0.0或1.0.1，保留阅读记录，不要先卸载。普通签名即可，不需要 root、系统签名或调试权限。
